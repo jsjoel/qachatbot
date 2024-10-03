@@ -34,8 +34,14 @@ This project implements a Question-Answering (QA) Chatbot using LangChain and St
 - **torch**: The core library for PyTorch, a popular framework for deep learning.
 
 ##Sample Images
+
    ![The web application preview](https://github.com/jsjoel/qachatbot/blob/main/assets/Screenshot%202024-10-03%20224252.png)
+
+   
    ![Web application preview](https://github.com/jsjoel/qachatbot/blob/main/assets/Screenshot%202024-10-03%20232359.png)
+
+
+   
    
 
 ### Run
@@ -46,6 +52,25 @@ This project implements a Question-Answering (QA) Chatbot using LangChain and St
 2. Navigate to http://localhost:8501 in your web browser to access the chatbot.
 
 3. Load your text document by modifying the file path in the code (D:/vs/chatbot/unseen_pasage.txt).
+
+
+### How the prompt template improves the system's performance and accuracy 
+- **Instructions**
+     The instruction ensures that the system understands the information provided in the context and gives a concise answer, which is crucial for providing accurate and relevant answers.
+     This makes the system be aware of the context all the time and not go out of context, thus improving the accuracy and relevancy
+
+- **Examples**
+     The provided examples serve as valuable demonstrations of how to follow the instructions and apply them to different types of questions. These examples help the system to understand the expected format and tone of the answers.
+
+- **Structure**
+     The clear structure of the prompt template, with separate sections for the context, question, and answer, helps to organize the information and make it easier for the system to process.
+
+Overall, the prompt template effectively guides the system towards providing accurate, concise, and relevant answers to questions, improving its overall performance and accuracy.
+
+
+
+### Explanation of code
+Explanation of the code is given as comments in the code itself
 
 
 
