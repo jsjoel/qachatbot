@@ -35,10 +35,16 @@ This project implements a Question-Answering (QA) Chatbot using LangChain and St
 
 ### Sample Images
 
+   ## Web Application Preview :-
    ![The web application preview](https://github.com/jsjoel/qachatbot/blob/main/assets/Screenshot%202024-10-03%20224252.png)
 
-   
+
+   ## Results Preview :-
    ![Web application preview](https://github.com/jsjoel/qachatbot/blob/main/assets/Screenshot%202024-10-03%20232359.png)
+
+
+   ## Video Preview :-
+   ![Demo](https://github.com/jsjoel/qachatbot/blob/main/assets/Recording%202024-10-03%20233403.gif)
 
 
    
