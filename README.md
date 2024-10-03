@@ -23,15 +23,26 @@ This project implements a Question-Answering (QA) Chatbot using LangChain and St
    pip install torch torchvision torchaudio
    ```
 ### Explanation of Packages
-langchain: A framework for developing applications using language models.
+**langchain**: A framework for developing applications using language models.
 
-langchain-community: A community-driven extension of the LangChain library that provides additional tools and features.
+***langchain-community**: A community-driven extension of the LangChain library that provides additional tools and features.
 
-streamlit: A library for creating interactive web applications using Python.
+**streamlit**: A library for creating interactive web applications using Python.
 
-transformers: A library by Hugging Face that provides pre-trained models for Natural Language Processing (NLP) tasks, including language modeling and text classification.
+**transformers**: A library by Hugging Face that provides pre-trained models for Natural Language Processing (NLP) tasks, including language modeling and text classification.
 
-torch: The core library for PyTorch, a popular framework for deep learning.
+**torch**: The core library for PyTorch, a popular framework for deep learning.
+
+### Run
+1. Run the Streamlit application in terminal using :
+   ```bash
+   streamlit run qabot_memory.py
+   ```
+2. Navigate to http://localhost:8501 in your web browser to access the chatbot.
+
+3. Load your text document by modifying the file path in the code (D:/vs/chatbot/unseen_pasage.txt).
+
+
 
 
 
