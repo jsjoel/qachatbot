@@ -60,7 +60,7 @@ This project implements a Question-Answering (QA) Chatbot using LangChain and St
 3. Load your text document by modifying the file path in the code (D:/vs/chatbot/unseen_pasage.txt).
 
 
-### How the prompt template improves the system's performance and accuracy 
+### **How the prompt template improves the system's performance and accuracy** 
 - **Instructions**
      The instruction ensures that the system understands the information provided in the context and gives a concise answer, which is crucial for providing accurate and relevant answers.
      This makes the system be aware of the context all the time and not go out of context, thus improving the accuracy and relevancy
