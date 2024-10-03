@@ -22,7 +22,7 @@ This project implements a Question-Answering (QA) Chatbot using LangChain and St
    ```bash
    pip install torch torchvision torchaudio
    ```
-### Explanation of Packages
+## Explanation of Packages
 - **langchain**: A framework for developing applications using language models.
 
 - **langchain-community**: A community-driven extension of the LangChain library that provides additional tools and features.
@@ -33,24 +33,24 @@ This project implements a Question-Answering (QA) Chatbot using LangChain and St
 
 - **torch**: The core library for PyTorch, a popular framework for deep learning.
 
-### Sample Images
+## Sample Images
 
-   ## Web Application Preview :-
+   ### Web Application Preview :-
    ![The web application preview](https://github.com/jsjoel/qachatbot/blob/main/assets/Screenshot%202024-10-03%20224252.png)
 
 
-   ## Results Preview :-
+   ### Results Preview :-
    ![Web application preview](https://github.com/jsjoel/qachatbot/blob/main/assets/Screenshot%202024-10-03%20232359.png)
 
 
-   ## Video Preview :-
+   ### Video Preview :-
    ![Demo](https://github.com/jsjoel/qachatbot/blob/main/assets/Recording%202024-10-03%20233403.gif)
 
 
    
    
 
-### Run
+## Run
 1. Run the Streamlit application in terminal using :
    ```bash
    streamlit run qabot_memory.py
@@ -60,7 +60,7 @@ This project implements a Question-Answering (QA) Chatbot using LangChain and St
 3. Load your text document by modifying the file path in the code (D:/vs/chatbot/unseen_pasage.txt).
 
 
-## **How the prompt template improves the system's performance and accuracy** 
+# **How the prompt template improves the system's performance and accuracy** 
 - **Instructions**
      The instruction ensures that the system understands the information provided in the context and gives a concise answer, which is crucial for providing accurate and relevant answers.
      This makes the system be aware of the context all the time and not go out of context, thus improving the accuracy and relevancy
