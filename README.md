@@ -33,7 +33,7 @@ This project implements a Question-Answering (QA) Chatbot using LangChain and St
 
 - **torch**: The core library for PyTorch, a popular framework for deep learning.
 
-##Sample Images
+### Sample Images
 
    ![The web application preview](https://github.com/jsjoel/qachatbot/blob/main/assets/Screenshot%202024-10-03%20224252.png)
 
